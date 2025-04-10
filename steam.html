@@ -36,14 +36,10 @@
             
             // Write iframe content with muted autoplay
             rickrollWindow.document.write(`
-                <iframe 
-                    width="560" 
-                    height="315"
-                     src="https://www.youtube.com/embed/DLzxrzFCyOs?hl=en_US&version=3&rel=0&autoplay=1"
-                    frameborder="0"
-                    allowfullscreen
-                    style="position: absolute; top: 0; left: 0;"
-                ></iframe>
+               <video controls width="500" autoplay>
+                    <source src="rr.mp4" type="video/mp4">
+                    Your browser doesn't support embedded videos.
+                </video>
             `);
         }
     </script>
